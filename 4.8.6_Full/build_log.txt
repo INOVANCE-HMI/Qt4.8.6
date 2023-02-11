@@ -1,0 +1,309 @@
+../../corelib/tools/qlocale_unix.cpp:51:19: warning: ‘QByteArray getSystemLocale()’ defined but not used [-Wunused-function]
+ static QByteArray getSystemLocale()
+                   ^
+global/qglobal.cpp: In function ‘void qt_message(QtMsgType, const char*, va_list)’:
+global/qglobal.cpp:2385:13: note: the mangling of ‘va_list’ has changed in GCC 4.4
+tools/qstring.cpp:5226:10: note: the mangling of ‘va_list’ has changed in GCC 4.4
+tools/qvsnprintf.cpp:100:5: note: the mangling of ‘va_list’ has changed in GCC 4.4
+In file included from ../3rdparty/harfbuzz/src/harfbuzz-shaper-all.cpp:25:0:
+../3rdparty/harfbuzz/src/harfbuzz-shaper.cpp: In function ‘HB_Bool HB_OpenTypePosition(HB_ShaperItem*, int, HB_Bool)’:
+../3rdparty/harfbuzz/src/harfbuzz-shaper.cpp:1322:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+In file included from ../3rdparty/harfbuzz/src/harfbuzz-shaper-all.cpp:35:0:
+../3rdparty/harfbuzz/src/harfbuzz-thai.c: In function ‘HB_Bool HB_ThaiConvertStringToGlyphIndices(HB_ShaperItem*)’:
+../3rdparty/harfbuzz/src/harfbuzz-thai.c:262:49: warning: comparison is always false due to limited range of data type [-Wtype-limits]
+bearer/qnetworkconfigmanager.cpp: In function ‘void connManager_cleanup()’:
+bearer/qnetworkconfigmanager.cpp:64:9: warning: unused variable ‘shutdown’ [-Wunused-variable]
+access/qnetworkaccessdebugpipebackend_p.h:0: Note: No relevant classes found. No output generated.
+In file included from ../../include/QtCore/qstring.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qobject.h:48,
+                 from ../../include/QtCore/qobject.h:1,
+                 from kernel/qsqldriver.h:45,
+                 from kernel/qsqldriver.cpp:42:
+../../include/QtCore/../../src/corelib/tools/qstring.h: In member function ‘virtual QString QSqlDriver::sqlStatement(QSqlDriver::StatementType, const QString&, const QSqlRecord&, bool) const’:
+../../include/QtCore/../../src/corelib/tools/qstring.h:799:11: warning: assuming signed overflow does not occur when assuming that (X - c) > X is always false [-Wstrict-overflow]
+In file included from ../../include/QtCore/qbytearray.h:1:0,
+                 from qtestcase.cpp:45:
+../../include/QtCore/../../src/corelib/tools/qbytearray.h:110:19: note: the mangling of ‘va_list’ has changed in GCC 4.4
+In file included from ../../include/QtCore/qbytearray.h:1:0,
+                 from qabstracttestlogger.cpp:46:
+../../include/QtCore/../../src/corelib/tools/qbytearray.h:110:19: note: the mangling of ‘va_list’ has changed in GCC 4.4
+qbenchmarkvalgrind.cpp: In static member function ‘static qint64 QBenchmarkValgrindUtils::extractResult(const QString&)’:
+qbenchmarkvalgrind.cpp:112:10: warning: variable ‘valSeen’ set but not used [-Wunused-but-set-variable]
+embedded/qscreen_qws.cpp: In member function ‘virtual void QScreen::exposeRegion(QRegion, int)’:
+embedded/qscreen_qws.cpp:2440:17: warning: variable ‘bounds’ set but not used [-Wunused-but-set-variable]
+embedded/qtransportauth_qws_p.h:0: Note: No relevant classes found. No output generated.
+embedded/qdecorationdefault_qws.cpp: In member function ‘virtual bool QDecorationDefault::paint(QPainter*, const QWidget*, int, QDecoration::DecorationState)’:
+embedded/qdecorationdefault_qws.cpp:687:63: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+embedded/qdecorationwindows_qws.cpp: In member function ‘virtual bool QDecorationWindows::paint(QPainter*, const QWidget*, int, QDecoration::DecorationState)’:
+embedded/qdecorationwindows_qws.cpp:330:70: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp: In member function ‘void QVNCClientCursor::write() const’:
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:161:34: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:162:34: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:163:34: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:163:54: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:164:34: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:165:34: warning: narrowing conversion of ‘({...})’ from ‘unsigned int’ to ‘const quint16 {aka const short unsigned int}’ inside { } is ill-formed in C++11 [-Wnarrowing]
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp: In member function ‘virtual bool QVNCScreen::connect(const QString&)’:
+../plugins/gfxdrivers/vnc/qscreenvnc_qws.cpp:2168:76: warning: suggest parentheses around ‘&&’ within ‘||’ [-Wparentheses]
+kernel/qwidget_qws.cpp: In member function ‘void QWidgetPrivate::create_sys(WId, bool, bool)’:
+kernel/qwidget_qws.cpp:133:10: warning: variable ‘dialog’ set but not used [-Wunused-but-set-variable]
+kernel/qwidget_qws.cpp: In member function ‘void QWidgetPrivate::updateFrameStrut()’:
+kernel/qwidget_qws.cpp:1139:21: warning: variable ‘oldFrameStrut’ set but not used [-Wunused-but-set-variable]
+image/qpnghandler.cpp: In member function ‘bool QPNGImageWriter::writeImage(const QImage&, int, const QString&, int, int)’:
+image/qpnghandler.cpp:729:30: warning: argument ‘quality_in’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+In file included from ../../include/QtCore/qbytearray.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qvariant.h:46,
+                 from ../../include/QtCore/qvariant.h:1,
+                 from ../../include/QtGui/../../src/gui/painting/qprintengine.h:45,
+                 from ../../include/QtGui/qprintengine.h:1,
+                 from painting/qprintengine_pdf.cpp:42:
+../../include/QtCore/../../src/corelib/tools/qbytearray.h:110:19: note: the mangling of ‘va_list’ has changed in GCC 4.4
+painting/qdrawhelper.cpp: In function ‘void qInitDrawhelperAsm()’:
+painting/qdrawhelper.cpp:7669:16: warning: unused variable ‘features’ [-Wunused-variable]
+text/qfontdatabase.cpp:1062:20: warning: ‘QStringList familyList(const QFontDef&)’ defined but not used [-Wunused-function]
+text/qfontengine_qws.cpp: In member function ‘virtual void QFontEngineQPF1::draw(QPaintEngine*, qreal, qreal, const QTextItemInt&)’:
+text/qfontengine_qws.cpp:424:12: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+text/qfontengine_qws.cpp:425:12: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+text/qfontengine_qpf.cpp: In member function ‘virtual void QFontEngineQPF::draw(QPaintEngine*, qreal, qreal, const QTextItemInt&)’:
+text/qfontengine_qpf.cpp:650:12: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+text/qfontengine_qpf.cpp:651:12: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+text/qabstractfontengine_qws.cpp: In member function ‘virtual void QProxyFontEngine::draw(QPaintEngine*, qreal, qreal, const QTextItemInt&)’:
+text/qabstractfontengine_qws.cpp:734:12: warning: variable ‘x’ set but not used [-Wunused-but-set-variable]
+text/qabstractfontengine_qws.cpp:735:12: warning: variable ‘y’ set but not used [-Wunused-but-set-variable]
+embedded/qtransportauth_qws.h:0: Note: No relevant classes found. No output generated.
+kernel/qsessionmanager.h:0: Note: No relevant classes found. No output generated.
+widgets/qmenudata.h:0: Note: No relevant classes found. No output generated.
+In file included from ../../include/QtCore/qlist.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qobject.h:50,
+                 from ../../include/QtCore/qobject.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qiodevice.h:46,
+                 from ../../include/QtCore/qiodevice.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qdatastream.h:46,
+                 from ../../include/QtCore/qdatastream.h:1,
+                 from ../../include/QtCore/../../src/corelib/kernel/qmetatype.h:49,
+                 from ../../include/QtCore/qmetatype.h:1,
+                 from api/qscriptengine.h:27,
+                 from api/qscriptengine.cpp:25:
+../../include/QtCore/../../src/corelib/tools/qlist.h: In instantiation of ‘void QList<T>::node_destruct(QList<T>::Node*) [with T = QVariant]’:
+../../include/QtCore/../../src/corelib/tools/qlist.h:532:17:   required from ‘void QList<T>::append(const T&) [with T = QVariant]’
+api/qscriptengine.cpp:1098:59:   required from here
+../../include/QtCore/../../src/corelib/tools/qlist.h:389:39: warning: cast from ‘QList<QVariant>::Node*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qmap.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qvariant.h:49,
+                 from ../../include/QtCore/qvariant.h:1,
+                 from api/qscriptengine.h:29,
+                 from api/qscriptengine.cpp:25:
+../../include/QtCore/../../src/corelib/tools/qmap.h: In instantiation of ‘static QMap<Key, T>::Node* QMap<Key, T>::concrete(QMapData::Node*) [with Key = QString; T = QVariant; QMap<Key, T>::Node = QMapNode<QString, QVariant>]’:
+../../include/QtCore/../../src/corelib/tools/qmap.h:324:61:   required from ‘const Key& QMap<Key, T>::const_iterator::key() const [with Key = QString; T = QVariant]’
+api/qscriptengine.cpp:1108:39:   required from here
+../../include/QtCore/../../src/corelib/tools/qmap.h:178:83: warning: cast from ‘char*’ to ‘QMap<QString, QVariant>::Node* {aka QMapNode<QString, QVariant>*}’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qlist.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qobject.h:50,
+                 from ../../include/QtCore/qobject.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qiodevice.h:46,
+                 from ../../include/QtCore/qiodevice.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qdatastream.h:46,
+                 from ../../include/QtCore/qdatastream.h:1,
+                 from ../../include/QtCore/../../src/corelib/kernel/qmetatype.h:49,
+                 from ../../include/QtCore/qmetatype.h:1,
+                 from api/qscriptengine.h:27,
+                 from api/qscriptengine.cpp:25:
+../../include/QtCore/../../src/corelib/tools/qlist.h: In instantiation of ‘void QList<T>::node_destruct(QList<T>::Node*, QList<T>::Node*) [with T = QVariant]’:
+../../include/QtCore/../../src/corelib/tools/qlist.h:757:5:   required from ‘void QList<T>::free(QListData::Data*) [with T = QVariant]’
+../../include/QtCore/../../src/corelib/tools/qlist.h:732:9:   required from ‘QList<T>::~QList() [with T = QVariant]’
+../../include/QtCore/private/../../../src/corelib/kernel/qobject_p.h:105:21:   required from here
+../../include/QtCore/../../src/corelib/tools/qlist.h:433:28: warning: cast from ‘QList<QVariant>::Node*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+In file included from ../3rdparty/javascriptcore/JavaScriptCore/wtf/HashCountedSet.h:27:0,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/Collector.h:27,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSGlobalData.h:32,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/Identifier.h:24,
+                 from api/qscriptstring_p.h:40,
+                 from api/qscriptengine_p.h:46,
+                 from api/qscriptengine.cpp:28:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/ArgList.h:48:26:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Register*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/PropertyNameArray.h:46:9:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Identifier*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = int; unsigned int inlineCapacity = 32u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = int; unsigned int inlineCapacity = 32u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = int; unsigned int inlineCapacity = 32u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/RegExpConstructor.h:39:33:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qlist.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qobject.h:50,
+                 from ../../include/QtCore/qobject.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qiodevice.h:46,
+                 from ../../include/QtCore/qiodevice.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qdatastream.h:46,
+                 from ../../include/QtCore/qdatastream.h:1,
+                 from ../../include/QtCore/../../src/corelib/kernel/qmetatype.h:49,
+                 from ../../include/QtCore/qmetatype.h:1,
+                 from api/qscriptengine.h:27,
+                 from api/qscriptengine.cpp:25:
+../../include/QtCore/../../src/corelib/tools/qlist.h: In instantiation of ‘void QList<T>::node_copy(QList<T>::Node*, QList<T>::Node*, QList<T>::Node*) [with T = QVariant]’:
+../../include/QtCore/../../src/corelib/tools/qlist.h:681:9:   required from ‘QList<T>::Node* QList<T>::detach_helper_grow(int, int) [with T = QVariant]’
+../../include/QtCore/../../src/corelib/tools/qlist.h:510:48:   required from ‘void QList<T>::append(const T&) [with T = QVariant]’
+api/qscriptengine.cpp:1098:59:   required from here
+../../include/QtCore/../../src/corelib/tools/qlist.h:412:17: warning: cast from ‘QList<QVariant>::Node*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qlist.h:418:17: warning: cast from ‘QList<QVariant>::Node*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+In file included from ../3rdparty/javascriptcore/JavaScriptCore/wtf/HashCountedSet.h:27:0,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/Collector.h:27,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSGlobalData.h:32,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/Identifier.h:24,
+                 from api/qscriptstring_p.h:40,
+                 from api/qscriptengine_p.h:46,
+                 from api/qscriptengine.cpp:28:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/SegmentedVector.h:148:17:   required from ‘void QTWTF::SegmentedVector<T, SegmentSize>::append(const U&) [with U = QTJSC::Identifier; T = QTJSC::Identifier; unsigned int SegmentSize = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/ParserArena.h:52:72:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Identifier*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:415:17:   required from ‘void QTWTF::VectorBuffer<T, inlineCapacity>::allocateBuffer(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:808:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::reserveCapacity(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:745:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:774:17:   required from ‘void QTWTF::Vector<T, inlineCapacity>::resize(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/SegmentedVector.h:177:13:   required from ‘void QTWTF::SegmentedVector<T, SegmentSize>::clear() [with T = QTJSC::Identifier; unsigned int SegmentSize = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/ParserArena.h:42:44:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTWTF::Vector<QTJSC::Identifier, 64u>**’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:415:17:   required from ‘void QTWTF::VectorBuffer<T, inlineCapacity>::allocateBuffer(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:808:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::reserveCapacity(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:745:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:752:13:   required from ‘const T* QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t, const T*) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:870:13:   required from ‘void QTWTF::Vector<T, inlineCapacity>::append(const U&) [with U = QTJSC::ExpressionNode*; T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/Nodes.h:1087:70:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::ExpressionNode**’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qvarlengtharray.h:1:0,
+                 from bridge/qscriptqobject.cpp:28:
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::QVarLengthArray(const QVarLengthArray<T, Prealloc>&) [with T = QVariant; int Prealloc = 9]’:
+bridge/qscriptqobject.cpp:496:64:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:69:62: warning: cast from ‘char*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::~QVarLengthArray() [with T = QVariant; int Prealloc = 9]’:
+bridge/qscriptqobject.cpp:496:64:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:80:9: warning: cast from ‘char*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::QVarLengthArray(int) [with T = QVariant; int Prealloc = 9]’:
+bridge/qscriptqobject.cpp:498:19:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:191:9: warning: cast from ‘char*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::QVarLengthArray(int) [with T = void*; int Prealloc = 9]’:
+bridge/qscriptqobject.cpp:924:57:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:191:9: warning: cast from ‘char*’ to ‘void**’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::~QVarLengthArray() [with T = void*; int Prealloc = 9]’:
+bridge/qscriptqobject.cpp:924:57:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:80:9: warning: cast from ‘char*’ to ‘void**’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::QVarLengthArray(int) [with T = QTJSC::JSValue; int Prealloc = 8]’:
+bridge/qscriptqobject.cpp:2125:53:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:191:9: warning: cast from ‘char*’ to ‘QTJSC::JSValue*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘QVarLengthArray<T, Prealloc>::~QVarLengthArray() [with T = QTJSC::JSValue; int Prealloc = 8]’:
+bridge/qscriptqobject.cpp:2125:53:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:80:9: warning: cast from ‘char*’ to ‘QTJSC::JSValue*’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qvector.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/io/qdebug.h:52,
+                 from ../../include/QtCore/qdebug.h:1,
+                 from bridge/qscriptqobject.cpp:29:
+../../include/QtCore/../../src/corelib/tools/qvector.h: In instantiation of ‘int QVector<T>::sizeOfTypedData() [with T = QScript::QScriptMetaArguments]’:
+../../include/QtCore/../../src/corelib/tools/qvector.h:577:9:   required from ‘void QVector<T>::append(const T&) [with T = QScript::QScriptMetaArguments]’
+bridge/qscriptqobject.cpp:592:88:   required from here
+../../include/QtCore/../../src/corelib/tools/qvector.h:323:135: warning: cast from ‘QVector<QScript::QScriptMetaArguments>*’ to ‘const Data* {aka const QVectorTypedData<QScript::QScriptMetaArguments>*}’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qvarlengtharray.h:1:0,
+                 from bridge/qscriptqobject.cpp:28:
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h: In instantiation of ‘void QVarLengthArray<T, Prealloc>::realloc(int, int) [with T = QVariant; int Prealloc = 9]’:
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:203:3:   required from ‘void QVarLengthArray<T, Prealloc>::resize(int) [with T = QVariant; int Prealloc = 9]’
+bridge/qscriptqobject.cpp:598:36:   required from here
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:259:21: warning: cast from ‘char*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+../../include/QtCore/../../src/corelib/tools/qvarlengtharray.h:279:5: warning: cast from ‘char*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+In file included from ../3rdparty/javascriptcore/JavaScriptCore/runtime/ArgList.h:28:0,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:26,
+                 from bridge/qscriptobject_p.h:40,
+                 from bridge/qscriptqobject_p.h:38,
+                 from bridge/qscriptqobject.cpp:25:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Register; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/ArgList.h:48:26:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Register*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 20u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/PropertyNameArray.h:46:9:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Identifier*’ increases required alignment of target type [-Wcast-align]
+In file included from ../../include/QtCore/qlist.h:1:0,
+                 from ../../include/QtCore/../../src/corelib/kernel/qobject.h:50,
+                 from ../../include/QtCore/qobject.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qiodevice.h:46,
+                 from ../../include/QtCore/qiodevice.h:1,
+                 from ../../include/QtCore/../../src/corelib/io/qdatastream.h:46,
+                 from ../../include/QtCore/qdatastream.h:1,
+                 from ../../include/QtCore/QDataStream:1,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:32,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/ArgList.h:28,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:26,
+                 from bridge/qscriptobject_p.h:40,
+                 from bridge/qscriptqobject_p.h:38,
+                 from bridge/qscriptqobject.cpp:25:
+../../include/QtCore/../../src/corelib/tools/qlist.h: In instantiation of ‘void QList<T>::node_destruct(QList<T>::Node*, QList<T>::Node*) [with T = QVariant]’:
+../../include/QtCore/../../src/corelib/tools/qlist.h:757:5:   required from ‘void QList<T>::free(QListData::Data*) [with T = QVariant]’
+../../include/QtCore/../../src/corelib/tools/qlist.h:732:9:   required from ‘QList<T>::~QList() [with T = QVariant]’
+../../include/QtCore/private/../../../src/corelib/kernel/qobject_p.h:105:21:   required from here
+../../include/QtCore/../../src/corelib/tools/qlist.h:433:28: warning: cast from ‘QList<QVariant>::Node*’ to ‘QVariant*’ increases required alignment of target type [-Wcast-align]
+In file included from ../3rdparty/javascriptcore/JavaScriptCore/runtime/ArgList.h:28:0,
+                 from ../3rdparty/javascriptcore/JavaScriptCore/runtime/JSObject.h:26,
+                 from bridge/qscriptobject_p.h:40,
+                 from bridge/qscriptqobject_p.h:38,
+                 from bridge/qscriptqobject.cpp:25:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = int; unsigned int inlineCapacity = 32u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = int; unsigned int inlineCapacity = 32u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = int; unsigned int inlineCapacity = 32u]’
+../3rdparty/javascriptcore/JavaScriptCore/runtime/RegExpConstructor.h:39:33:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:394:50:   required from ‘QTWTF::VectorBuffer<T, inlineCapacity>::VectorBuffer() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:494:23:   required from ‘QTWTF::Vector<T, inlineCapacity>::Vector() [with T = QTJSC::Identifier; unsigned int inlineCapacity = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/SegmentedVector.h:148:17:   required from ‘void QTWTF::SegmentedVector<T, SegmentSize>::append(const U&) [with U = QTJSC::Identifier; T = QTJSC::Identifier; unsigned int SegmentSize = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/ParserArena.h:52:72:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::Identifier*’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:415:17:   required from ‘void QTWTF::VectorBuffer<T, inlineCapacity>::allocateBuffer(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:808:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::reserveCapacity(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:745:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:774:17:   required from ‘void QTWTF::Vector<T, inlineCapacity>::resize(size_t) [with T = QTWTF::Vector<QTJSC::Identifier, 64u>*; unsigned int inlineCapacity = 32u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/SegmentedVector.h:177:13:   required from ‘void QTWTF::SegmentedVector<T, SegmentSize>::clear() [with T = QTJSC::Identifier; unsigned int SegmentSize = 64u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/ParserArena.h:42:44:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTWTF::Vector<QTJSC::Identifier, 64u>**’ increases required alignment of target type [-Wcast-align]
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h: In instantiation of ‘T* QTWTF::VectorBuffer<T, inlineCapacity>::inlineBuffer() [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u]’:
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:415:17:   required from ‘void QTWTF::VectorBuffer<T, inlineCapacity>::allocateBuffer(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:808:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::reserveCapacity(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:745:9:   required from ‘void QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:752:13:   required from ‘const T* QTWTF::Vector<T, inlineCapacity>::expandCapacity(size_t, const T*) [with T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u; size_t = unsigned int]’
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:870:13:   required from ‘void QTWTF::Vector<T, inlineCapacity>::append(const U&) [with U = QTJSC::ExpressionNode*; T = QTJSC::ExpressionNode*; unsigned int inlineCapacity = 8u]’
+../3rdparty/javascriptcore/JavaScriptCore/parser/Nodes.h:1087:70:   required from here
+../3rdparty/javascriptcore/JavaScriptCore/wtf/Vector.h:473:78: warning: cast from ‘QTWTF::AlignedBufferChar* {aka char*}’ to ‘QTJSC::ExpressionNode**’ increases required alignment of target type [-Wcast-align]
+In file included from main.cpp:47:0:
+itemviews.h:280:10: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.h:281:11: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.h:282:11: warning: unused parameter ‘child’ [-Wunused-parameter]
+In file included from itemviews.cpp:42:0:
+itemviews.h:280:10: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.h:281:11: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.h:282:11: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:415:20: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:467:9: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:475:7: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:785:19: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:791:20: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:830:7: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:843:9: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:864:6: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:938:23: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:938:23: warning: unused parameter ‘otherChild’ [-Wunused-parameter]
+itemviews.cpp:977:19: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:985:20: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:991:7: warning: unused parameter ‘child’ [-Wunused-parameter]
+itemviews.cpp:1020:9: warning: unused parameter ‘child’ [-Wunused-parameter]

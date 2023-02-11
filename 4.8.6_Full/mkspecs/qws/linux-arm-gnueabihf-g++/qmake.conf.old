@@ -1,0 +1,28 @@
+#
+# qmake configuration for building with arm-linux-g++
+#
+
+include(../../common/linux.conf)
+include(../../common/gcc-base-unix.conf)
+include(../../common/g++-unix.conf)
+include(../../common/qws.conf)
+
+#ARM Cortex-A8处理器隶属于Cortex-A系列，基于ARMv7-A架构
+#-fno-rtti  cause undefined reference to `typeinfo for QGraphicsItem'
+QMAKE_CFLAGS_RELEASE += -fvisibility=hidden -ffunction-sections -fdata-sections -fno-exceptions
+QMAKE_CFLAGS_RELEASE += -Os -march=armv7-a -mtune=cortex-a8 --sysroot=/work/am335x/linux-devkit/sysroots/cortexa8t2hf-vfp-neon-oe-linux-gnueabi
+QMAKE_CXXFLAGS_RELEASE	+= $$QMAKE_CFLAGS_RELEASE -fvisibility-inlines-hidden
+QMAKE_LFLAGS += -Wl,--gc-sections
+
+# modifications to g++.conf
+QMAKE_CC                = arm-linux-gnueabihf-gcc
+QMAKE_CXX               = arm-linux-gnueabihf-g++
+QMAKE_LINK              = arm-linux-gnueabihf-g++
+QMAKE_LINK_SHLIB        = arm-linux-gnueabihf-g++
+
+# modifications to linux.conf
+QMAKE_AR                = arm-linux-gnueabihf-ar cqs
+QMAKE_OBJCOPY           = arm-linux-gnueabihf-objcopy
+QMAKE_STRIP             = arm-linux-gnueabihf-strip
+
+load(qt_config)
