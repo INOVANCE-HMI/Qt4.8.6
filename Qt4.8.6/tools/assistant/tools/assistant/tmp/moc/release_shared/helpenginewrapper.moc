@@ -1,0 +1,188 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'helpenginewrapper.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'helpenginewrapper.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_TimeoutForwarder[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      18,   17,   17,   17, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_TimeoutForwarder[] = {
+    "TimeoutForwarder\0\0forward()\0"
+};
+
+void TimeoutForwarder::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TimeoutForwarder *_t = static_cast<TimeoutForwarder *>(_o);
+        switch (_id) {
+        case 0: _t->forward(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData TimeoutForwarder::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject TimeoutForwarder::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TimeoutForwarder,
+      qt_meta_data_TimeoutForwarder, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &TimeoutForwarder::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *TimeoutForwarder::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *TimeoutForwarder::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_TimeoutForwarder))
+        return static_cast<void*>(const_cast< TimeoutForwarder*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int TimeoutForwarder::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_HelpEngineWrapperPrivate[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      40,   26,   25,   25, 0x05,
+      70,   26,   25,   25, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+     109,  100,   25,   25, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_HelpEngineWrapperPrivate[] = {
+    "HelpEngineWrapperPrivate\0\0namespaceName\0"
+    "documentationRemoved(QString)\0"
+    "documentationUpdated(QString)\0fileName\0"
+    "qchFileChanged(QString)\0"
+};
+
+void HelpEngineWrapperPrivate::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        HelpEngineWrapperPrivate *_t = static_cast<HelpEngineWrapperPrivate *>(_o);
+        switch (_id) {
+        case 0: _t->documentationRemoved((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->documentationUpdated((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->qchFileChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData HelpEngineWrapperPrivate::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject HelpEngineWrapperPrivate::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_HelpEngineWrapperPrivate,
+      qt_meta_data_HelpEngineWrapperPrivate, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &HelpEngineWrapperPrivate::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *HelpEngineWrapperPrivate::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *HelpEngineWrapperPrivate::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_HelpEngineWrapperPrivate))
+        return static_cast<void*>(const_cast< HelpEngineWrapperPrivate*>(this));
+    return QObject::qt_metacast(_clname);
+}
+
+int HelpEngineWrapperPrivate::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void HelpEngineWrapperPrivate::documentationRemoved(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void HelpEngineWrapperPrivate::documentationUpdated(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+QT_END_MOC_NAMESPACE

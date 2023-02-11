@@ -1,0 +1,451 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'richtexteditor.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'richtexteditor.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_qdesigner_internal__RichTextEditor[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      36,   35,   35,   35, 0x05,
+      51,   35,   35,   35, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      83,   81,   35,   35, 0x0a,
+     101,   35,   35,   35, 0x0a,
+     131,  126,   35,   35, 0x0a,
+     150,  148,   35,   35, 0x0a,
+     191,  184,  176,   35, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__RichTextEditor[] = {
+    "qdesigner_internal::RichTextEditor\0\0"
+    "stateChanged()\0simplifyRichTextChanged(bool)\0"
+    "b\0setFontBold(bool)\0setFontPointSize(double)\0"
+    "text\0setText(QString)\0v\0"
+    "setSimplifyRichText(bool)\0QString\0"
+    "format\0text(Qt::TextFormat)\0"
+};
+
+void qdesigner_internal::RichTextEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        RichTextEditor *_t = static_cast<RichTextEditor *>(_o);
+        switch (_id) {
+        case 0: _t->stateChanged(); break;
+        case 1: _t->simplifyRichTextChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->setFontBold((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 3: _t->setFontPointSize((*reinterpret_cast< double(*)>(_a[1]))); break;
+        case 4: _t->setText((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->setSimplifyRichText((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 6: { QString _r = _t->text((*reinterpret_cast< Qt::TextFormat(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = _r; }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::RichTextEditor::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::RichTextEditor::staticMetaObject = {
+    { &QTextEdit::staticMetaObject, qt_meta_stringdata_qdesigner_internal__RichTextEditor,
+      qt_meta_data_qdesigner_internal__RichTextEditor, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::RichTextEditor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::RichTextEditor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::RichTextEditor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__RichTextEditor))
+        return static_cast<void*>(const_cast< RichTextEditor*>(this));
+    return QTextEdit::qt_metacast(_clname);
+}
+
+int qdesigner_internal::RichTextEditor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QTextEdit::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 7)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 7;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void qdesigner_internal::RichTextEditor::stateChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+
+// SIGNAL 1
+void qdesigner_internal::RichTextEditor::simplifyRichTextChanged(bool _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+static const uint qt_meta_data_qdesigner_internal__AddLinkDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      35,   34,   34,   34, 0x0a,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__AddLinkDialog[] = {
+    "qdesigner_internal::AddLinkDialog\0\0"
+    "accept()\0"
+};
+
+void qdesigner_internal::AddLinkDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        AddLinkDialog *_t = static_cast<AddLinkDialog *>(_o);
+        switch (_id) {
+        case 0: _t->accept(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData qdesigner_internal::AddLinkDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::AddLinkDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_qdesigner_internal__AddLinkDialog,
+      qt_meta_data_qdesigner_internal__AddLinkDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::AddLinkDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::AddLinkDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::AddLinkDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__AddLinkDialog))
+        return static_cast<void*>(const_cast< AddLinkDialog*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int qdesigner_internal::AddLinkDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_qdesigner_internal__HtmlTextEdit[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      41,   34,   33,   33, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__HtmlTextEdit[] = {
+    "qdesigner_internal::HtmlTextEdit\0\0"
+    "action\0actionTriggered(QAction*)\0"
+};
+
+void qdesigner_internal::HtmlTextEdit::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        HtmlTextEdit *_t = static_cast<HtmlTextEdit *>(_o);
+        switch (_id) {
+        case 0: _t->actionTriggered((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::HtmlTextEdit::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::HtmlTextEdit::staticMetaObject = {
+    { &QTextEdit::staticMetaObject, qt_meta_stringdata_qdesigner_internal__HtmlTextEdit,
+      qt_meta_data_qdesigner_internal__HtmlTextEdit, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::HtmlTextEdit::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::HtmlTextEdit::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::HtmlTextEdit::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__HtmlTextEdit))
+        return static_cast<void*>(const_cast< HtmlTextEdit*>(this));
+    return QTextEdit::qt_metacast(_clname);
+}
+
+int qdesigner_internal::HtmlTextEdit::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QTextEdit::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+static const uint qt_meta_data_qdesigner_internal__ColorAction[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      39,   33,   32,   32, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      60,   32,   32,   32, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__ColorAction[] = {
+    "qdesigner_internal::ColorAction\0\0color\0"
+    "colorChanged(QColor)\0chooseColor()\0"
+};
+
+void qdesigner_internal::ColorAction::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ColorAction *_t = static_cast<ColorAction *>(_o);
+        switch (_id) {
+        case 0: _t->colorChanged((*reinterpret_cast< const QColor(*)>(_a[1]))); break;
+        case 1: _t->chooseColor(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::ColorAction::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::ColorAction::staticMetaObject = {
+    { &QAction::staticMetaObject, qt_meta_stringdata_qdesigner_internal__ColorAction,
+      qt_meta_data_qdesigner_internal__ColorAction, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::ColorAction::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::ColorAction::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::ColorAction::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__ColorAction))
+        return static_cast<void*>(const_cast< ColorAction*>(this));
+    return QAction::qt_metacast(_clname);
+}
+
+int qdesigner_internal::ColorAction::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAction::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void qdesigner_internal::ColorAction::colorChanged(const QColor & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+static const uint qt_meta_data_qdesigner_internal__RichTextEditorToolBar[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       8,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      43,   42,   42,   42, 0x0a,
+      66,   59,   42,   42, 0x08,
+     106,  101,   42,   42, 0x08,
+     140,  134,   42,   42, 0x08,
+     167,  161,   42,   42, 0x08,
+     192,  188,   42,   42, 0x08,
+     211,   42,   42,   42, 0x08,
+     224,   42,   42,   42, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__RichTextEditorToolBar[] = {
+    "qdesigner_internal::RichTextEditorToolBar\0"
+    "\0updateActions()\0action\0"
+    "alignmentActionTriggered(QAction*)\0"
+    "size\0sizeInputActivated(QString)\0color\0"
+    "colorChanged(QColor)\0super\0"
+    "setVAlignSuper(bool)\0sub\0setVAlignSub(bool)\0"
+    "insertLink()\0insertImage()\0"
+};
+
+void qdesigner_internal::RichTextEditorToolBar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        RichTextEditorToolBar *_t = static_cast<RichTextEditorToolBar *>(_o);
+        switch (_id) {
+        case 0: _t->updateActions(); break;
+        case 1: _t->alignmentActionTriggered((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
+        case 2: _t->sizeInputActivated((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->colorChanged((*reinterpret_cast< const QColor(*)>(_a[1]))); break;
+        case 4: _t->setVAlignSuper((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 5: _t->setVAlignSub((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 6: _t->insertLink(); break;
+        case 7: _t->insertImage(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::RichTextEditorToolBar::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::RichTextEditorToolBar::staticMetaObject = {
+    { &QToolBar::staticMetaObject, qt_meta_stringdata_qdesigner_internal__RichTextEditorToolBar,
+      qt_meta_data_qdesigner_internal__RichTextEditorToolBar, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::RichTextEditorToolBar::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::RichTextEditorToolBar::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::RichTextEditorToolBar::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__RichTextEditorToolBar))
+        return static_cast<void*>(const_cast< RichTextEditorToolBar*>(this));
+    return QToolBar::qt_metacast(_clname);
+}
+
+int qdesigner_internal::RichTextEditorToolBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QToolBar::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 8)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

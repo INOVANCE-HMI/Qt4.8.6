@@ -1,0 +1,378 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'designerpropertymanager.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'designerpropertymanager.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_qdesigner_internal__TextEditor[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      37,   32,   31,   31, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      58,   32,   31,   31, 0x0a,
+      75,   31,   31,   31, 0x08,
+      91,   31,   31,   31, 0x08,
+     117,   31,   31,   31, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__TextEditor[] = {
+    "qdesigner_internal::TextEditor\0\0text\0"
+    "textChanged(QString)\0setText(QString)\0"
+    "buttonClicked()\0resourceActionActivated()\0"
+    "fileActionActivated()\0"
+};
+
+void qdesigner_internal::TextEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        TextEditor *_t = static_cast<TextEditor *>(_o);
+        switch (_id) {
+        case 0: _t->textChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->setText((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->buttonClicked(); break;
+        case 3: _t->resourceActionActivated(); break;
+        case 4: _t->fileActionActivated(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::TextEditor::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::TextEditor::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_qdesigner_internal__TextEditor,
+      qt_meta_data_qdesigner_internal__TextEditor, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::TextEditor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::TextEditor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::TextEditor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__TextEditor))
+        return static_cast<void*>(const_cast< TextEditor*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int qdesigner_internal::TextEditor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void qdesigner_internal::TextEditor::textChanged(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+static const uint qt_meta_data_qdesigner_internal__IconThemeDialog[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__IconThemeDialog[] = {
+    "qdesigner_internal::IconThemeDialog\0"
+};
+
+void qdesigner_internal::IconThemeDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData qdesigner_internal::IconThemeDialog::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::IconThemeDialog::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_qdesigner_internal__IconThemeDialog,
+      qt_meta_data_qdesigner_internal__IconThemeDialog, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::IconThemeDialog::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::IconThemeDialog::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::IconThemeDialog::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__IconThemeDialog))
+        return static_cast<void*>(const_cast< IconThemeDialog*>(this));
+    return QDialog::qt_metacast(_clname);
+}
+
+int qdesigner_internal::IconThemeDialog::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QDialog::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    return _id;
+}
+static const uint qt_meta_data_qdesigner_internal__PixmapEditor[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      39,   34,   33,   33, 0x05,
+      66,   60,   33,   33, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      88,   34,   33,   33, 0x0a,
+     105,   60,   33,   33, 0x0a,
+     130,  123,   33,   33, 0x0a,
+     156,   33,   33,   33, 0x08,
+     181,   33,   33,   33, 0x08,
+     207,   33,   33,   33, 0x08,
+     229,   33,   33,   33, 0x08,
+     252,   33,   33,   33, 0x08,
+     274,   33,   33,   33, 0x08,
+     297,   33,   33,   33, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__PixmapEditor[] = {
+    "qdesigner_internal::PixmapEditor\0\0"
+    "path\0pathChanged(QString)\0theme\0"
+    "themeChanged(QString)\0setPath(QString)\0"
+    "setTheme(QString)\0pixmap\0"
+    "setDefaultPixmap(QPixmap)\0"
+    "defaultActionActivated()\0"
+    "resourceActionActivated()\0"
+    "fileActionActivated()\0themeActionActivated()\0"
+    "copyActionActivated()\0pasteActionActivated()\0"
+    "clipboardDataChanged()\0"
+};
+
+void qdesigner_internal::PixmapEditor::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        PixmapEditor *_t = static_cast<PixmapEditor *>(_o);
+        switch (_id) {
+        case 0: _t->pathChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 1: _t->themeChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->setPath((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 3: _t->setTheme((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 4: _t->setDefaultPixmap((*reinterpret_cast< const QPixmap(*)>(_a[1]))); break;
+        case 5: _t->defaultActionActivated(); break;
+        case 6: _t->resourceActionActivated(); break;
+        case 7: _t->fileActionActivated(); break;
+        case 8: _t->themeActionActivated(); break;
+        case 9: _t->copyActionActivated(); break;
+        case 10: _t->pasteActionActivated(); break;
+        case 11: _t->clipboardDataChanged(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::PixmapEditor::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::PixmapEditor::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_qdesigner_internal__PixmapEditor,
+      qt_meta_data_qdesigner_internal__PixmapEditor, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::PixmapEditor::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::PixmapEditor::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::PixmapEditor::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__PixmapEditor))
+        return static_cast<void*>(const_cast< PixmapEditor*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int qdesigner_internal::PixmapEditor::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 12)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 12;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void qdesigner_internal::PixmapEditor::pathChanged(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void qdesigner_internal::PixmapEditor::themeChanged(const QString & _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+static const uint qt_meta_data_qdesigner_internal__ResetWidget[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      42,   33,   32,   32, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      69,   32,   32,   32, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_qdesigner_internal__ResetWidget[] = {
+    "qdesigner_internal::ResetWidget\0\0"
+    "property\0resetProperty(QtProperty*)\0"
+    "slotClicked()\0"
+};
+
+void qdesigner_internal::ResetWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        ResetWidget *_t = static_cast<ResetWidget *>(_o);
+        switch (_id) {
+        case 0: _t->resetProperty((*reinterpret_cast< QtProperty*(*)>(_a[1]))); break;
+        case 1: _t->slotClicked(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData qdesigner_internal::ResetWidget::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject qdesigner_internal::ResetWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_qdesigner_internal__ResetWidget,
+      qt_meta_data_qdesigner_internal__ResetWidget, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &qdesigner_internal::ResetWidget::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *qdesigner_internal::ResetWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *qdesigner_internal::ResetWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_qdesigner_internal__ResetWidget))
+        return static_cast<void*>(const_cast< ResetWidget*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int qdesigner_internal::ResetWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void qdesigner_internal::ResetWidget::resetProperty(QtProperty * _t1)
+{
+    void *_a[] = { 0, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+QT_END_MOC_NAMESPACE
